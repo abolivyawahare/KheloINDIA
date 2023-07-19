@@ -5,13 +5,13 @@
 }
 
 /* Navigation bar */
-#navbar {
+.navbar {
     position: relative;
     display: flex;
     align-items: center;
 }
 
-#navbar::before {
+.navbar::before {
     /* psuodo selectors */
     content: "";
     background-color: gray;
@@ -23,26 +23,26 @@
 }
 
 /* Navigation bar : logo and image  */
-#logo {
+.logo {
     margin: 10px 10px;
 }
 
-#logo img {
+.logo img {
     height: 50px;
 
 }
 
 /* Navigation bar. List styling */
-#navbar ul {
+.navbar ul {
     display: flex;
 }
 
-#navbar ul li {
+.navbar ul li {
     list-style: none;
-    font-size: 2 rem;
+    font-size: 2rem;
 }
 
-#navbar ul li a {
+.navbar ul li a {
     display: block;
     padding: 3px 22px;
     color: black;
@@ -50,7 +50,7 @@
     text-decoration: none;
 }
 
-#navbar ul li a:hover {
+.navbar ul li a:hover {
     color: white;
     background-color: black;
 }
@@ -61,8 +61,9 @@
     right: 10px;
     width: 50px;
     height: 50px;
-  }
-  .add-to-cart {
+}
+
+.add-to-cart {
     display: inline-block;
     background-color: #f36d0e;
     color: #fff;
@@ -70,13 +71,12 @@
     border-radius: 4px;
     text-decoration: none;
     transition: background-color 0.3s ease;
-  }
-  
-  .add-to-cart:hover {
+}
+
+.add-to-cart:hover {
     background-color: #e0580a;
     color: #fff;
-  }
-  
+}
 
 /* Home section */
 #home {
@@ -123,7 +123,7 @@
     background-color: rgb(238 227 238);
 }
 
-#services {
+.services {
     margin: 30px;
 }
 
@@ -160,7 +160,7 @@
     margin-top: 10px;
 }
 
-/* Catagories */
+/* Categories */
 .allitems-container {
     display: flex;
     justify-content: center;
@@ -169,7 +169,7 @@
     background-color: rgb(226, 248, 248);
 }
 
-.catagory {
+.category {
     text-align: center;
     margin: 10px;
     margin-top: 80px;
@@ -180,7 +180,7 @@
     margin-top: 10px;
 }
 
-#genders img {
+.genders img {
     width: 450px;
     height: 450px;
     border-radius: 50%;
@@ -191,7 +191,7 @@
     margin-top: 10px;
 }
 
-#genders1 img {
+.genders1 img {
     width: 450px;
     height: 450px;
     border-radius: 50%;
@@ -326,7 +326,7 @@
     }
 }
 
-/* Women catagory */
+/* Women Category */
 .womensportscontainer {
     margin-top: 20px;
     text-align: center;
@@ -359,12 +359,6 @@
 .pant-image .tshirts.image,
 .tracksuits.image,
 .shoes.image {
-    width: 100%;
-    height: auto;
-}
-
-/* CATAGORY MEN */
-.card-body{
     width: 100%;
     height: auto;
 }
